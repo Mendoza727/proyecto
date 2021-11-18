@@ -1,0 +1,20 @@
+.login {
+  width: 750px;
+  height: 420px;
+  background: gray;
+  color: white;
+  top: 50px;
+  left: 250px;
+  position: relative;
+  box-sizing: content-box;
+  border-radius: 75px;
+  padding: 40px 40px;
+
+}
+.login .avatar {
+  width: 10px;
+  height: 10px;
+  border-radius: 150px;
+  position: relative;
+   border:10px solid #666;
+}
