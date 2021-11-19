@@ -10,10 +10,10 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 <body bgcolor="aqua">
-  <nav>INICIO</nav>
+  <nav></nav>
   <ul id="slide-out" class="sidenav">
     <li><div class="user-view">
-      <div class="background" style="background-repeat: no-repeat; background-size: cover; margin: 0; height: 10vh">
+      <div class="background" style="background-repeat: no-repeat; background-size: cover; margin: 0; height: 175px;">
         <img src="Material/fotografia.gif">
       </div>
       <a href="#user"><img class="circle" src="Material/hidromax.gif"></a>
@@ -28,7 +28,15 @@
   <div align="right">
   </div>
   <div class="login" align="right">
-  	<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="large material-icons">account_circle</i></a>
+    <div class=""> 	
+  	<i class="large material-icons"></i>
+  	<i class="large material-icons"></i>	
+  	<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="large material-icons">more_vert</i></a>
+    </div>
+  	<div align="center">
+  		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  	<a class="waves-effect waves-light btn-small" href="index.html"><i class="material-icons left">power</i>finalizar</a>
+  	</div>
   </form>
   <script>
   	document.addEventListener('DOMContentLoaded', function() {
