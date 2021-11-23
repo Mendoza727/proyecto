@@ -1,0 +1,13 @@
+.login {
+  width: 450px;
+  height: 200px;
+  background: white;
+  color: white;
+  top: 150px;
+  left: 350px;
+  position: relative;
+  box-sizing: content-box;
+  border-radius: 45px;
+  padding: 40px 40px;
+}
+
